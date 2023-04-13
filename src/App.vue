@@ -11,7 +11,7 @@
   <AppHeader />
 </template>
 
-<style scope lang="scss">
+<style lang="scss">
   @use "../src/assets/style/general.scss"
 
 </style>
