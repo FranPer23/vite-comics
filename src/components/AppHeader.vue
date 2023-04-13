@@ -5,52 +5,52 @@
             return {
                 links: [
                 {
-                    text: "Characters",
+                    text: "CHARACTERS",
                     url: "#",
                     current: false
                 },
                 {
-                    text: "Comics",
+                    text: "COMICS",
                     url: "#",
                     current: true
                 },
                 {
-                    text: "Movies",
+                    text: "MOVIES",
                     url: "#",
                     current: false
                 },
                 {
-                    text: "Tv",
+                    text: "TV",
                     url: "#",
                     current: false
                 },
                 {
-                    text: "Games",
+                    text: "GAMES",
                     url: "#",
                     current: false
                 },
                 {
-                    text: "Collectibles",
+                    text: "COLLECTIBLES",
                     url: "#",
                     current: false
                 },
                 {
-                    text: "Videos",
+                    text: "VIDEOS",
                     url: "#",
                     current: false
                 },
                 {
-                    text: "Fans",
+                    text: "FANS",
                     url: "#",
                     current: false
                 },
                 {
-                    text: "News",
+                    text: "NEWS",
                     url: "#",
                     current: false
                 },
                 {
-                    text: "Shop",
+                    text: "SHOP",
                     url: "#",
                     current: false
                 },
@@ -76,10 +76,28 @@
                 </li>
             </ul>
         </nav>
+        <div class="bottom-nav">
+            
+        </div>
     </header>
 </template>
 
 <style scope lang="scss">
+
+.header-nav li.active a {
+        color: #0282f9;
+        position: relative;
+    }
+
+.header-nav li.active a::after {
+        content: "";
+        position: absolute;
+        left: 0;
+        bottom: -30px;
+        width: 100%;
+        height: 2px;
+        background-color: #0282f9;
+    }
 
 </style>
 
