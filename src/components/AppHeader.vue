@@ -63,9 +63,6 @@
 
 <template>
     <header>
-        <div class="top">
-            
-        </div>
         <nav class="bottom flex">
             <a href="">
                 <img class="logo" src="../assets/img/dc-logo.png" alt="">
@@ -76,9 +73,7 @@
                 </li>
             </ul>
         </nav>
-        <div class="bottom-nav">
-            
-        </div>
+        
     </header>
 </template>
 

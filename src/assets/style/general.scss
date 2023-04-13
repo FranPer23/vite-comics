@@ -20,10 +20,6 @@ ul {
     list-style-type: none;
 }
 
-.top {
-    height: 50px;
-    background-color: black;
-}
 
 .logo {
     width: 80px;
@@ -56,6 +52,12 @@ ul {
     display: flex;
     align-items: center;
     justify-content: space-around;
+}
+
+.main-bg {
+    height: 80px;
+    background-color: black;
+    
 }
 
 
